@@ -1,0 +1,13 @@
+@use "@/styles/_variables" as *;
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button-base {
+    background: $color-primary;
+    padding: $space-2;
+    border-radius: $radius-sm;
+}
